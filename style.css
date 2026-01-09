@@ -220,3 +220,81 @@ button {
   line-height: 1.6;
   color: #6b7280;
 }
+
+
+
+.sec-brain {
+  width:85%;
+  margin:0 auto;
+  padding: 120px;
+  background-color: #ffffff;
+}
+
+.sec-brain-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.sec-brain-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-brain-left img {
+  width:auto;
+  height:100%;
+}
+
+.sec-brain-right {
+  flex: 1;
+  gap:16px;
+}
+
+.sec-brain-tag {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #469165;
+  margin-bottom: 12px;
+}
+
+.sec-brain-right h2 {
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.sec-brain-right p {
+  font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+  color: #627382;
+  margin-bottom: 32px;
+}
+
+.sec-brain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sec-brain-list li {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  font-weight: 500;
+  line-height:20px;
+  color: #001931;
+}
+
+.sec-brain-list li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
