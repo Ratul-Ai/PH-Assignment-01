@@ -149,6 +149,8 @@ button {
   color: wheat;
 }
 
+
+
 /* Notes Section */
 
 .notes {
@@ -217,59 +219,59 @@ button {
   color: #6b7280;
 }
 
+
+/* second brain */
+
+
 .sec-brain {
-  width: 85%;
-  margin: 0 auto;
-  padding: 120px;
+  width: 100%;
   background-color: #ffffff;
+  padding: 120px 5%;
 }
 
 .sec-brain-content {
   display: flex;
-  align-items: center;
+  align-items:center;
   gap: 60px;
 }
 
 .sec-brain-left {
-  flex: 1;
+  width: 45%;
   display: flex;
   justify-content: center;
 }
 
 .sec-brain-left img {
-  width: auto;
-  height: 100%;
+  width: 90%;
+  height: auto;
 }
 
 .sec-brain-right {
-  flex: 1;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
 .sec-brain-tag {
-  display: inline-block;
   font-size: 16px;
   font-weight: 600;
   color: #469165;
-  margin-bottom: 12px;
 }
 
 .sec-brain-right h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
-  text-align: left;
   color: #001931;
-  margin-bottom: 16px;
 }
 
 .sec-brain-right p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-align: left;
   color: #627382;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .sec-brain-list {
@@ -281,17 +283,23 @@ button {
 .sec-brain-list li {
   display: flex;
   align-items: flex-start;
+  gap: 12px;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   color: #001931;
+  margin-bottom: 12px;
 }
 
 .sec-brain-list li img {
   width: 20px;
   height: 20px;
-  margin-right: 3px;
+  margin-top: 2px;
 }
+
+
+/* Early access */
+
 
 .early {
   width: 85%;
@@ -331,6 +339,9 @@ button {
   color: #627382;
 }
 
+
+/* footer */
+
 .footer {
   width: 100%;
   background-color: #001931;
@@ -359,8 +370,8 @@ button {
 
 .social-title {
   color: #ffffff;
-  font-size: 20px; 
-  margin-bottom:16px;
+  font-size: 20px;
+  margin-bottom: 16px;
   line-height: 20px;
   font-weight: 500;
 }
@@ -378,7 +389,7 @@ button {
 .footer-divider {
   margin-top: 80px;
   height: 1px;
-  background-color:white;
+  background-color: white;
   opacity: 0.2;
 }
 
@@ -386,8 +397,8 @@ button {
   margin-top: 30px;
   text-align: center;
   font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-color: white;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: white;
 }
